@@ -18,7 +18,7 @@ To run this application locally, follow these steps:
 
 Clone the repository from Hugging Face Spaces to your local machine:
 
-```bash
+
 git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
 cd YOUR_SPACE_NAME
 
@@ -62,3 +62,4 @@ License
 
 
 For any questions or inquiries, please contact dineshsaliyar@gmail.com
+```bash
