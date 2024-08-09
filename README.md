@@ -21,3 +21,44 @@ Clone the repository from Hugging Face Spaces to your local machine:
 ```bash
 git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
 cd YOUR_SPACE_NAME
+
+###2. Install Dependencies
+
+Make sure you have Python installed on your machine. Then, install the required Python libraries:
+
+bash
+
+pip install -r requirements.txt
+
+###3. Set Up Environment Variables
+
+Create a .env file in the root directory of your project with the following content:
+
+makefile
+
+GOOGLE_API_KEY=your_google_api_key
+
+Replace your_google_api_key with your actual Google API key.
+Usage
+Running the Application
+
+Start the Streamlit application by running the following command:
+
+bash
+
+streamlit run app.py
+
+Using the Application
+
+    Upload PDF Files: Use the file uploader in the sidebar to upload your PDF files.
+    Process PDFs: Click the "Submit & Process" button to process the uploaded PDFs.
+    Ask Questions: Enter your questions related to the PDF content in the text input field and press Enter.
+    Download Chat History: Click the "Download Chat History (TXT)" button to download a .txt file of your chat history.
+
+Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue in the repository.
+License
+
+
+For any questions or inquiries, please contact dineshsaliyar@gmail.com
